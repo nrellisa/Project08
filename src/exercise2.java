@@ -15,7 +15,7 @@ Scanner input = new Scanner (System.in);
 
     
     double no1;
-    double no2;
+    double no3;
     double tambah;
     double tolak;
     double darab;
@@ -25,12 +25,12 @@ Scanner input = new Scanner (System.in);
     no1=input.nextDouble();
     
     System.out.println("Masukkan nombor kedua: ");
-    no2=input.nextDouble();
+    no3=input.nextDouble();
     
-    tambah=no1+no2;
-    tolak=no1-no2;
-    darab=no1*no2;
-    bahagi=no1/no2;
+    tambah=no1+no3;
+    tolak=no1-no3;
+    darab=no1*no3;
+    bahagi=no1/no3;
     
     System.out.println("jumlah tambah: "+tambah);
     System.out.println("jumlah tolak: "+tolak);
